@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ff9100;
+  font-weight: bold;
+}
+
+.user-cart {
+  display: flex;
+  gap: 20px; /* This adds space between the icons */
+}
+
+.user-cart .icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.background-img {
+  width: 100%;
+  height: calc(100vh - 80px);
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.shop-now {
+  background-color: #FF6600;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer p {
+  margin-top: 10px;
+}
